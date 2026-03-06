@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* GLP-1 Effects Brand Colors */
+    --background: 210 40% 98%;
+    --foreground: 220 60% 6%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 60% 6%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 60% 6%;
+
+    /* Primary - Azul Vívido */
+    --primary: 193 100% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Azul Marinho */
+    --secondary: 227 95% 13%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted */
+    --muted: 210 30% 96%;
+    --muted-foreground: 220 20% 40%;
+
+    /* Accent - Azul Escuro */
+    --accent: 227 100% 5%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 193 100% 35%;
+
+    --radius: 0.75rem;
+
+    /* Custom Brand Colors */
+    --glp-dark: 227 100% 5%;
+    --glp-navy: 227 95% 13%;
+    --glp-blue: 210 80% 25%;
+    --glp-vivid: 193 100% 35%;
+    --glp-light: 200 30% 96%;
+    --glp-icon-primary: 215 35% 52%;
+    --glp-icon-secondary: 210 35% 65%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(227 100% 5%) 0%, hsl(227 95% 13%) 50%, hsl(193 100% 35%) 100%);
+    --gradient-cta: linear-gradient(135deg, hsl(193 100% 35%) 0%, hsl(193 100% 30%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(227 100% 5%) 0%, hsl(227 95% 13%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 30% 98%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 5, 26, 0.06);
+    --shadow-md: 0 4px 20px rgba(0, 5, 26, 0.1);
+    --shadow-lg: 0 8px 40px rgba(0, 5, 26, 0.12);
+    --shadow-glow: 0 4px 30px rgba(0, 140, 177, 0.25);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 227 100% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 227 95% 13%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 227 95% 13%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 193 100% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 227 80% 20%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 227 60% 15%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 193 80% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 227 40% 20%;
+    --input: 227 40% 20%;
+    --ring: 193 100% 35%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-body {
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-cta {
+    background: var(--gradient-cta);
+  }
+
+  .gradient-dark {
+    background: var(--gradient-dark);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--glp-icon-primary)) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+  }
+
+  .animate-slide-right {
+    animation: slideRight 0.6s ease-out forwards;
+  }
+
+  .delay-100 { animation-delay: 100ms; }
+  .delay-200 { animation-delay: 200ms; }
+  .delay-300 { animation-delay: 300ms; }
+  .delay-400 { animation-delay: 400ms; }
+  .delay-500 { animation-delay: 500ms; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Scroll reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--glp-vivid));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--secondary));
+}
