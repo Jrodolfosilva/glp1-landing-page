@@ -50,7 +50,7 @@ const ProfessorsSection = () => {
             Aprenda com quem <span className="text-primary">lidera</span>
           </h2>
           <p className="text-primary font-heading text-xl font-semibold">
-            +{professors.length} especialistas confirmados
+            +{professors.length} especialistas confirmados, referência nacional em dermatologia, cirurgia plástica, medicina estética e gestão estratégica.
           </p>
         </div>
 

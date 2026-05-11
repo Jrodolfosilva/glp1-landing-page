@@ -4,17 +4,17 @@ const differentials = [
   {
     icon: Users,
     title: 'Comunidade Exclusiva',
-    description: '5 mil médicos selecionados',
+    description: '5.000 médicos selecionados, com networking qualificado e acesso direto aos maiores nomes da estética avançada brasileira.',
   },
   {
     icon: Globe,
-    title: 'Ensino médico global',
-    description: 'Cursos dublados com sincronização labial e textos traduzidos para diversos idiomas',
+    title: 'Ensino Médico Global',
+    description: 'Conteúdos com sincronização labial e textos traduzidos para diversos idiomas, ampliando o alcance e a referência internacional.',
   },
   {
     icon: BookOpen,
-    title: 'Guias práticos',
-    description: 'Desde a teoria científico-clínica até a abordagem em gestão',
+    title: 'Guias Práticos e Aplicáveis',
+    description: 'Da teoria científico-clínica à execução em gestão. Protocolos, fluxos e mapas de tecnologias prontos para a clínica usar amanhã.',
   },
 ];
 

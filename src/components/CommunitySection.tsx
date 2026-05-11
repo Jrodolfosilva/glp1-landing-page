@@ -5,9 +5,9 @@ import communityMockup from '@/assets/community-mockup.png';
 import CRMPopupFlow from './CRMPopupFlow';
 
 const stats = [
-  { value: '6', label: 'Discussões ao vivo' },
-  { value: '+90', label: 'Aulas disponíveis' },
-  { value: '20+', label: 'Especialistas' },
+  { value: '+10', label: 'Discussões ao vivo' },
+  { value: '+180', label: 'Aulas disponíveis' },
+  { value: '+50', label: 'Especialistas' },
 ];
 
 const CommunitySection = () => {
@@ -49,13 +49,13 @@ const CommunitySection = () => {
             <div className="bg-muted/50 border border-border rounded-xl p-4 mb-8">
               <ul className="text-muted-foreground text-sm space-y-2">
                 <li className="flex items-center gap-2">
-                  <span className="text-primary">✓</span> Acesso à comunidade exclusiva de profissionais
+                  <span className="text-primary">✓</span> Acesso à comunidade exclusiva de profissionais médicos
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-primary">✓</span> Networking com especialistas renomados
+                  <span className="text-primary">✓</span> Networking qualificado com especialistas referência nacional
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-primary">✓</span> Atualizações em tempo real sobre GLP-1
+                  <span className="text-primary">✓</span> Atualizações em tempo real sobre protocolos e tecnologias para o paciente das canetas
                 </li>
               </ul>
             </div>

@@ -24,7 +24,7 @@ const SponsorsBar = () => {
     <section className="py-12 bg-gradient-to-r from-glp-dark via-glp-blue to-glp-dark overflow-hidden rounded-b-[50px]">
       <div className="container mx-auto px-4">
         <p className="text-center text-secondary-foreground/80 text-sm font-medium mb-8">
-          Desenvolvimento de pesquisas e tecnologias apoiado por:
+          Desenvolvimento de pesquisas, protocolos e tecnologias com apoio de:
         </p>
         
         {/* Carousel container */}

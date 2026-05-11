@@ -8,27 +8,27 @@ import alexandreFerreira from '@/assets/doctors/alexandre-ferreira.jpg';
 
 const testimonials = [
   {
-    quote: 'Estamos fazendo aqui juntos é trazendo clareza, na questão estética. Então é muito importante, que a gente possa trazer de uma maneira tão abrangente um tema tão atual e que ainda vai evoluir tanto!',
-    author: 'Dra. Shirley Borelli',
-    role: 'Médica',
+    quote: 'Estamos trazendo clareza para a questão estética. É muito importante poder abordar de maneira tão abrangente um tema tão atual e que ainda vai evoluir tanto.',
+    author: 'Dra. Shirlei Borelli',
+    role: 'Dermatologista',
     image: shirleiBorelli,
   },
   {
-    quote: 'Algo inovador, disruptivo e que vai agregar muito mais tanto para os médicos quanto para os pacientes que a gente vai atender, é um mercado que só vai crescer, sendo o segundo no mundo e o GLP-1 é o maior mercado de emagrecimento, quando temos esses dois combinados tem a perfeição do tratamento dos pacientes.',
+    quote: 'Algo inovador e disruptivo, que agrega tanto para os médicos quanto para os pacientes. É um mercado que só vai crescer, e quando combinamos estética avançada e o paciente das canetas, temos a perfeição do tratamento.',
     author: 'Dra. Juliana Romano',
-    role: 'Médica',
+    role: 'Medicina Estética',
     image: julianaRomano,
   },
   {
-    quote: 'Essa ideia é fantástica, vocês terão todo o meu apoio pessoal, científico, o que for preciso!',
+    quote: 'Essa ideia é fantástica. Vocês terão todo o meu apoio pessoal e científico, o que for preciso.',
     author: 'Dra. Luciana Lourenço',
-    role: 'Médica',
+    role: 'Medicina Estética',
     image: lucianaLourenco,
   },
   {
-    quote: 'Ter uma plataforma para embasar profissionais, que estão envolvidos no tratamento, que aborda a relação de obesidade e doenças de comorbidade associada, é de importância muito grande, para que os profissionais tenham capacidade de evoluir tão rápido quanto a mudança desse mercado dentro da medicina.',
+    quote: 'Ter uma plataforma para embasar profissionais envolvidos no tratamento, com a abordagem completa do novo paciente, é de extrema importância para que os médicos evoluam tão rápido quanto a transformação do mercado.',
     author: 'Dr. Alexandre Ferreira',
-    role: 'Médico',
+    role: 'Medicina Estética',
     image: alexandreFerreira,
   },
 ];

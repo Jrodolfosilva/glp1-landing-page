@@ -41,13 +41,13 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-200px)]">
           {/* Left Content - Desktop */}
           <div className="space-y-6 hidden lg:block">
-            <div className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight animate-slide-up">
-              Tudo o que você precisa saber sobre{' '}
-              <h1 className="text-primary inline">GLP-1</h1> na Estética Médica em uma única plataforma
+            <div className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground leading-tight animate-slide-up">
+              Domine o que há de mais{' '}
+              <h1 className="text-primary inline">Avançado</h1> na Dermatologia, Estética Médica e Regenerativa da atualidade.
             </div>
 
             <p className="text-lg md:text-xl text-primary-foreground/80 leading-relaxed max-w-xl animate-slide-up delay-100">
-              O mais completo programa de ensino exclusivamente médico- GLP-1 Effects é pioneiro em pesquisa e estudos dos efeitos e terapias com análogos dos medicamentos que estão transformando a sociedade.
+              O mais completo programa de ensino exclusivamente médico em dermatologia, estética médica e regenerativa aplicadas ao novo perfil de paciente que emergiu com as canetas emagrecedoras. Effects é pioneiro em pesquisa, protocolos e formação para os médicos que estão definindo o novo padrão da estética brasileira.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 animate-slide-up delay-300">
@@ -75,17 +75,17 @@ const HeroSection = () => {
                 ))}
               </div>
               <p className="text-primary-foreground/60 text-sm">
-                Comunidade de 5.000 médicos de diversas especialidades.{' '}
-                <span className="text-primary font-semibold">+500 médicos</span> em todo Brasil
+                +5.000 médicos de diversas especialidades •{' '}
+                <span className="text-primary font-semibold">+500 médicos</span> ativos em todo o Brasil
               </p>
             </div>
           </div>
 
           {/* Mobile Content */}
           <div className="space-y-6 lg:hidden text-justify">
-            <div className="font-heading text-3xl sm:text-4xl font-bold text-primary-foreground leading-tight animate-slide-up text-center">
-              Tudo o que você precisa saber sobre{' '}
-              <h1 className="text-primary inline">GLP-1</h1> na Estética Médica em uma única plataforma
+            <div className="font-heading text-2xl sm:text-3xl font-bold text-primary-foreground leading-tight animate-slide-up text-center">
+              Domine o que há de mais{' '}
+              <h1 className="text-primary inline">Avançado</h1> na Dermatologia, Estética Médica e Regenerativa da atualidade.
             </div>
 
             {/* Image for Mobile - Notebook Mockup */}
@@ -117,7 +117,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-base text-primary-foreground/80 leading-relaxed animate-slide-up delay-100">
-              O mais completo programa de ensino exclusivamente médico- GLP-1 Effects é pioneiro em pesquisa e estudos dos efeitos e terapias com análogos dos medicamentos que estão transformando a sociedade.
+              O mais completo programa de ensino exclusivamente médico em dermatologia, estética médica e regenerativa aplicadas ao novo perfil de paciente que emergiu com as canetas emagrecedoras. Effects é pioneiro em pesquisa, protocolos e formação para os médicos que estão definindo o novo padrão da estética brasileira.
             </p>
           </div>
 

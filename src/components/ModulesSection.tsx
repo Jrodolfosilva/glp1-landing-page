@@ -4,33 +4,33 @@ import { FlaskConical, User, Zap, Scissors, Sparkles, Building2, Plus } from 'lu
 const modules = [
   {
     icon: FlaskConical,
-    title: 'Bases Científicas',
-    description: 'Fundamentos fisiológicos e mecanismos de ação dos análogos de GLP-1'
+    title: 'Bases Clínicas',
+    description: 'Mecanismos de ação e impacto sistêmico das canetas emagrecedoras nos tecidos. Base para a decisão estética.'
   },
   {
     icon: User,
     title: 'Flacidez Facial',
-    description: 'Protocolos avançados para flacidez facial e perda de volume'
+    description: 'Protocolos avançados para flacidez palpebral, perda de volume e recomposição: bioestimuladores, fios, exossomos e tecnologias combinadas.'
   },
   {
     icon: Zap,
     title: 'Flacidez Corporal',
-    description: 'Tecnologias e bioestimuladores para redefinição corporal'
+    description: 'Tecnologias híbridas, bioestimuladores corporais e radiofrequência invasiva para redefinição corporal pós-canetas.'
   },
   {
     icon: Scissors,
     title: 'Terapias Capilares',
-    description: 'Prevenção e tratamento da rarefação capilar'
+    description: 'Prevenção e tratamento da rarefação capilar com eletroporação, lasers específicos e mesoterápicos.'
   },
   {
     icon: Sparkles,
     title: 'Medicina Regenerativa',
-    description: 'Exossomos, PDRN, PRP e terapias avançadas'
+    description: 'Exossomos, PDRN, PRP e tecnologias de estímulo celular para o paciente das canetas emagrecedoras.'
   },
   {
     icon: Building2,
     title: 'Gestão de Clínicas',
-    description: 'Estratégias de precificação e modelos de negócio'
+    description: 'Estratégias de precificação inteligente, modelos de negócio e recorrência aplicados à estética avançada.'
   }
 ];
 
@@ -46,7 +46,7 @@ const ModulesSection = () => {
             Trilha Científico-Clínica e em Gestão
           </h2>
           <p className="text-muted-foreground max-w-3xl mx-auto text-lg">
-            Conteúdo organizado em módulos estratégicos desenvolvidos para integrar ciência, prática clínica e resultados mensuráveis. Trilhas que oferecem uma jornada completa de atualização e rentabilidade para profissionais que atuam com terapias baseadas em GLP-1.
+            Conteúdo organizado em módulos estratégicos que integram ciência, prática clínica avançada e resultados mensuráveis. Uma jornada completa de atualização e rentabilidade para o médico que atua com o novo paciente da estética.
           </p>
         </div>
 
@@ -72,17 +72,7 @@ const ModulesSection = () => {
           })}
 
           {/* Coming Soon Block */}
-          <div className="bg-card border-2 border-dashed border-primary/30 rounded-2xl p-6 flex flex-col items-center justify-center text-center">
-            <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4">
-              <Plus className="w-6 h-6 text-primary" />
-            </div>
-            <h3 className="font-heading font-bold text-foreground text-lg mb-1">
-              Novos módulos
-            </h3>
-            <p className="text-primary font-medium">
-              Em breve
-            </p>
-          </div>
+         
         </div>
       </div>
     </section>

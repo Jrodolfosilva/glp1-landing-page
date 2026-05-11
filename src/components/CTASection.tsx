@@ -4,14 +4,14 @@ import { ArrowRight, Check } from 'lucide-react';
 import CRMPopupFlow from './CRMPopupFlow';
 
 const benefits = [
-  'Acesso ilimitado a 90+ aulas científicas',
-  'Protocolos clínicos prontos para aplicação',
-  '4 Webinars Master anuais',
-  'Atualizações dos principais congressos internacionais',
-  'Discussões ao vivo semanais com especialistas',
-  'Materiais técnicos exclusivos (dossiês, KPIs, scripts)',
-  'Comunidade exclusiva de médicos',
-  'Certificados de participação',
+  'Acesso ilimitado a +180 aulas clínicas em estética avançada',
+  'Protocolos clínicos prontos para aplicação na sua clínica',
+  '4 Webinars Master anuais com os principais especialistas do país',
+  'Atualizações dos principais congressos internacionais (IMCAS Paris, Américas, CBCD)',
+  'Discussões ao vivo semanais com especialistas referência nacional',
+  'Materiais técnicos exclusivos: dossiês, fluxos, KPIs e scripts de atendimento',
+  'Comunidade exclusiva com +5.000 médicos verificados via CRM',
+  'Certificados de participação para módulos e Webinars Master',
 ];
 
 const CTASection = () => {
@@ -29,13 +29,12 @@ const CTASection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-              Faça parte da <span className="text-primary">revolução do GLP-1</span><br />
-              na medicina brasileira
+              Faça parte da <span className="text-primary">nova estética</span><br />
+              médica.
             </h2>
-            
+
             <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto">
-              Junte-se a centenas de médicos que já estão dominando os análogos de GLP-1
-              e transformando resultados clínicos em crescimento sustentável.
+              Junte-se aos médicos que já estão dominando os protocolos estéticos avançados para o paciente das canetas emagrecedoras, transformando resultados clínicos em crescimento sustentável.
             </p>
           </div>
 

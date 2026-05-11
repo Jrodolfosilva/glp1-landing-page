@@ -4,43 +4,43 @@ import { Calendar, Video } from 'lucide-react';
 const webinars = [
   {
     id: 'I',
-    date: '21 de fevereiro 2026',
+    date: '21 de fevereiro de 2026',
     title: 'Webinar Master I',
     topics: [
-      'Introdução ao GLP-1 e seus impactos',
-      'Novidades do IMCAS Paris',
-      '"A nova economia do GLP-1: Tendências, oportunidades e modelos de negócio na estética médica"',
+      'Introdução à Estética Avançada para o Paciente das Canetas Emagrecedoras',
+      'Novidades do IMCAS Paris 2026',
+      'A nova economia das canetas emagrecedoras: tendências, oportunidades e modelos de negócio na estética médica',
     ],
   },
   {
     id: 'II',
-    date: '28 de março 2026',
-    title: 'Webinar II',
+    date: '28 de março de 2026',
+    title: 'Webinar Master II',
     topics: [
-      'Áreas impactadas pelo GLP-1',
-      'A prevenção como terapia fundamental',
-      'Novidades do IMCAS América',
-      'Precificação de protocolos e estratégias comerciais para a performance e o resultado financeiro da sua clínica',
+      'Áreas mais impactadas pelo paciente das canetas: face, corpo, capilar',
+      'A prevenção como terapia fundamental no novo perfil de paciente',
+      'Novidades do IMCAS Américas',
+      'Precificação de protocolos e estratégias comerciais para a performance financeira da clínica',
     ],
   },
   {
     id: 'III',
-    date: '25 abril 2026',
-    title: 'Webinar III',
+    date: '25 de abril de 2026',
+    title: 'Webinar Master III',
     topics: [
-      'Tratamentos avançados e específicos',
-      'Novidades da Coréia do Sul e mercados emergentes em cosméticos, tecnologias e injetáveis',
-      'Precificação de protocolos e estratégias comerciais para melhorar a performance e o resultado financeiro da sua clínica',
+      'Tratamentos avançados e específicos para o paciente das canetas',
+      'Novidades da Coreia do Sul e mercados emergentes em cosméticos, tecnologias e injetáveis',
+      'Precificação de protocolos e estratégias comerciais para melhorar a performance da clínica',
     ],
   },
   {
     id: 'IV',
-    date: '23 de maio 2026',
-    title: 'Webinar IV',
+    date: '13 de junho de 2026',
+    title: 'Webinar Master IV',
     topics: [
-      'Protocolos e associações em tratamentos, drug delivery, tecnologias, rejuvenescimento, flacidez e medicina regenerativa.',
-      'Novidades do congresso brasileiro de cirurgia dermatológica e congressos internacionais',
-      'Precificação correta de protocolos e estratégias comerciais para melhorar a performance e resultado financeiro da sua clínica',
+      'Protocolos e associações em drug delivery, tecnologias, rejuvenescimento, flacidez e medicina regenerativa',
+      'Novidades do Congresso Brasileiro de Cirurgia Dermatológica e congressos internacionais',
+      'Precificação correta de protocolos e estratégias comerciais para melhorar o resultado financeiro da clínica',
     ],
   },
 ];
@@ -57,7 +57,7 @@ const WebinarsSection = () => {
             Webinars <span className="text-primary">Master</span>
           </h2>
           <p className="text-secondary-foreground/80 text-lg max-w-3xl mx-auto">
-            Uma experiência completa, unindo conteúdo científico de excelência, debates clínicos aplicados e reflexões estratégicas sobre o futuro da prática médica e estética, com foco em inovação, resultados e integração entre ciência e mercado.
+            Uma experiência completa unindo conteúdo científico de excelência, debates clínicos aplicados e reflexões estratégicas sobre o futuro da prática médica e estética, com foco em inovação, resultados e integração entre ciência e mercado.
           </p>
         </div>
 
@@ -96,7 +96,7 @@ const WebinarsSection = () => {
 
         <div className="text-center mt-8">
           <p className="text-primary text-sm font-semibold">
-            Exclusivo para médicos verificados via CRM
+            Exclusivo para médicos verificados via CRM.
           </p>
         </div>
       </div>

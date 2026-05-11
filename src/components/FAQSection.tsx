@@ -8,24 +8,24 @@ import { Badge } from '@/components/ui/badge';
 
 const faqs = [
   {
-    question: 'Para quem é a GLP-1 Effects?',
-    answer: 'A plataforma é exclusiva para médicos de todas as especialidades. Todos seremos afetados pela Revolução do GLP-1 - aqui, desvendamos as tendências que vão transformar a sua prática amanhã.',
+    question: 'Para quem é a Effects?',
+    answer: 'Para médicos que atuam (ou querem atuar) com estética avançada e atendem o novo perfil de paciente que emergiu com as canetas emagrecedoras. O paciente mudou, e os protocolos precisam acompanhar.',
   },
   {
     question: 'Preciso ter CRM para acessar?',
-    answer: 'O acesso à comunidade e plataforma é restrito a profissionais médicos com CRM ativo. Acreditamos que conteúdo de qualidade merece estar nas mãos de quem tem formação e responsabilidade ética para aplicá-lo.',
+    answer: 'Sim. O acesso à comunidade e à plataforma é restrito a profissionais médicos com CRM ativo.',
   },
   {
-    question: 'Onde terei acesso ao Programa Oficial da GLP-1 Effects?',
-    answer: 'Todo o conteúdo fica disponível em nossa plataforma online, acessível por login e senha que você receberá ao finalizar a compra.',
+    question: 'Onde acesso o Programa Oficial da Effects?',
+    answer: 'Todo o conteúdo fica disponível na plataforma online, acessível por login e senha que você recebe ao finalizar a compra.',
   },
   {
     question: 'Existe suporte em caso de dúvidas?',
-    answer: 'Sim, nossa equipe de suporte estará disponível por e-mail, Whatsapp e chat para ajudá-lo com qualquer dúvida técnica ou sobre o conteúdo.',
+    answer: 'Sim. Nossa equipe está disponível por e-mail, WhatsApp e chat para qualquer dúvida técnica ou de conteúdo.',
   },
   {
     question: 'Como funciona o pagamento?',
-    answer: 'Aceitamos pagamento via cartão de crédito e Pix.',
+    answer: 'Aceitamos pagamento via cartão de crédito, em assinatura mensal.',
   },
   {
     question: 'Posso cancelar a qualquer momento?',
@@ -33,7 +33,7 @@ const faqs = [
   },
   {
     question: 'Vocês emitem certificado?',
-    answer: 'Sim. Certificados de participação são emitidos para os módulos completos e Webinars Master com carga horária especificada.',
+    answer: 'Sim. Certificados de participação são emitidos para os módulos completos e Webinars Master, com carga horária especificada.',
   },
 ];
 

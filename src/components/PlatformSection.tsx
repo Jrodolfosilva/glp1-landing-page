@@ -16,7 +16,7 @@ const PlatformSection = () => {
             Conheça nosso <span className="text-primary">Programa Oficial</span>
           </h2>
           <p className="text-secondary-foreground/70 text-lg max-w-2xl mx-auto">
-            Uma plataforma completa com tudo que você precisa para dominar os protocolos de GLP-1
+            Uma plataforma completa com tudo que você precisa para dominar os protocolos estéticos avançados aplicados ao paciente das canetas emagrecedoras.
           </p>
         </div>
 
@@ -58,11 +58,11 @@ const PlatformSection = () => {
 
           {/* Floating annotations */}
           <div className="absolute top-1/3 -left-4 md:left-0 bg-card rounded-xl p-3 md:p-4 shadow-card max-w-[180px] hidden lg:block border border-primary/20">
-            <p className="text-card-foreground text-sm font-medium">Aulas organizadas por módulos</p>
+            <p className="text-card-foreground text-sm font-medium">Aulas organizadas por módulos clínicos e estratégicos</p>
           </div>
 
           <div className="absolute top-1/3 -right-4 md:right-0 bg-card rounded-xl p-3 md:p-4 shadow-card max-w-[180px] hidden lg:block border border-primary/20">
-            <p className="text-card-foreground text-sm font-medium">Materiais técnicos para download</p>
+            <p className="text-card-foreground text-sm font-medium">Materiais técnicos: dossiês, fluxos, mapas de tecnologias e KPIs</p>
           </div>
         </div>
 

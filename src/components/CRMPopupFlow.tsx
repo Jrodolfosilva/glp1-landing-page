@@ -151,7 +151,7 @@ const CRMPopupFlow = ({ open, onOpenChange }: CRMPopupFlowProps) => {
          const messageCaption =
     `👋 *Bem-vindo(a) ao GLP-1 Effects, Dr. ${nome}!*\n\n` +
     `Você agora faz parte de uma comunidade médica exclusiva, focada no uso estratégico dos análogos de GLP-1 aliado à estética médica.\n\n` +
-    `Aqui você vai aprender a utilizar o GLP-1 com segurança, além de prevenir e tratar os efeitos estéticos nos pacientes, integrando protocolos faciais, corporais e regenerativos à sua prática clínica — com impacto direto nos resultados e no faturamento da sua clínica.\n\n` +
+    `Aqui você vai aprender a utilizar o GLP-1 com segurança, além de prevenir e tratar os efeitos estéticos nos pacientes, integrando protocolos faciais, corporais e regenerativos à sua prática clínica, com impacto direto nos resultados e no faturamento da sua clínica.\n\n` +
     `🔑 *Seu acesso já está liberado*\n` +
     `Acesse o link abaixo, crie sua conta e finalize sua inscrição pelo e-mail de confirmação.\n\n` +
     `👉  https://app.neoidea.com.br/effects-cursos \n\n` +
@@ -411,26 +411,26 @@ const CRMPopupFlow = ({ open, onOpenChange }: CRMPopupFlowProps) => {
 
       if (error) throw error;
 
-      // 2. POST para Google Sheets (Mapeado com o seu Script)
+      // 2. POST para Google Sheets
       async function enviarGoogleSheets() {
         try {
-          // Os nomes das chaves aqui devem bater com o seu script: p.nome, p.utm_source, etc.
+          // form-urlencoded é Content-Type "simples" (CORS-safelisted), funciona em mode: "no-cors".
+          // O Apps Script popula automaticamente e.parameter com esses campos.
+          const body = new URLSearchParams({
+            nome,
+            telefone,
+            crm,
+            especialidade: formData.especialidade,
+            estado: formData.estado,
+            utm_source: utmParams.utm_source || "direto",
+            utm_campaign: utmParams.utm_campaign || "nenhuma",
+            utm_content: utmParams.utm_content || "nenhum",
+          });
+
           await fetch("https://script.google.com/macros/s/AKfycbw8EvTqIY5jQo5SmOywpFx3DM56D6Gw4Q_y3eMteoAuFo_VD7X5ok6gmN70GpQ0W81nyw/exec?destino=comunidade", {
             method: "POST",
             mode: "no-cors",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              nome: nome,
-              telefone: telefone,
-              crm: crm,
-              especialidade: formData.especialidade,
-              estado: formData.estado,
-              utm_source: utmParams.utm_source || "direto",
-              utm_campaign: utmParams.utm_campaign || "nenhuma",
-              utm_content: utmParams.utm_content || "nenhum"
-            }),
+            body,
           });
         } catch (err) {
           console.error("Erro ao enviar para Google Sheets:", err);
@@ -453,7 +453,7 @@ const CRMPopupFlow = ({ open, onOpenChange }: CRMPopupFlowProps) => {
 
 Você agora faz parte de uma comunidade médica exclusiva, focada no uso estratégico dos análogos de GLP-1 aliado à estética médica.
 
-Aqui você vai aprender a utilizar o GLP-1 com segurança, além de prevenir e tratar os efeitos estéticos nos pacientes, integrando protocolos faciais, corporais e regenerativos à sua prática clínica — com impacto direto nos resultados e no faturamento da sua clínica.
+Aqui você vai aprender a utilizar o GLP-1 com segurança, além de prevenir e tratar os efeitos estéticos nos pacientes, integrando protocolos faciais, corporais e regenerativos à sua prática clínica, com impacto direto nos resultados e no faturamento da sua clínica.
 
 🔑 *Seu acesso já está liberado*
 Acesse o link abaixo, crie sua conta e finalize sua inscrição pelo e-mail de confirmação.
